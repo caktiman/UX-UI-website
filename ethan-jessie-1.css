@@ -1,0 +1,12 @@
+.work{
+    background-color: transparent;
+    display:flex;
+    background-position: left;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 3vw 0px;
+    height: 30vh;
+    width: 40%;
+    border: 3px solid white;
+  }

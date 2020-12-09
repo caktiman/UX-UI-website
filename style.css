@@ -1,0 +1,42 @@
+.myDiv{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+
+    /*Border Styles */
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkblue; 
+
+    /* Border shorthand syntax */
+    border: 50px dashed darkblue;
+
+    /* Only do it for the top */
+    border-top: 50px dashed purple;
+    border-left: 20px solid green;
+
+    /* Rounded corners */
+    border-radius: 50px;
+
+    /* Only to top left corner */
+    border-top-left-radius: 20px;
+
+    /* bottom right corner */
+    border-bottom-right-radius: 20px;
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+}
+
+
+
