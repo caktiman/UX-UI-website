@@ -1,0 +1,42 @@
+*{
+    border:0px;
+    margin: 0px;
+}
+
+.top-bar{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.left-bar{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 25vw;
+    background-color: white;
+}
+
+.left-bar > h1
+{
+    color:#1B7092;
+    margin-top: 3vh;
+    margin-left: 3vh
+   
+}
+
+.right-bar{
+    display: flex;
+    height: 90vh;
+    width: 75vw;
+    background-color: #A9D1E2;
+}
+
+.bottom-bar{
+    display:flex;
+}
+
+#signout{
+    margin-top: 11vh;
+}
