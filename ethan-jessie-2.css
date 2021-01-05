@@ -8,14 +8,52 @@
     height: 10vh;
     width: 100vw;
     background-color: white;
+    
+}
+
+.top-bar > img{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    margin-left: 2vh
+}
+
+.top-bar > h1{
+    margin-left: 1vh;
+    margin-top: 2vh;
+    font-size: 70px;
+    color:#1B7092;
+}
+
+#user{
+    margin-top: 2.6vh;
+    margin-left: 69vw;
+    
+}
+
+.top-bar > h2{
+    color: gray;
+    font-size:40px;
+    margin-top: 3.4vh;
+    margin-left: 1vw;
+}
+
+.bottom-bar{
+    display:flex;
+    height: 90vh;
+    width: 100vw;
 }
 
 .left-bar{
     display: flex;
     flex-direction: column;
-    height: 90vh;
-    width: 25vw;
+    height: 99.6%;
+    width: 25%;
     background-color: white;
+    border:#1B7092;
+    border-style: solid;
+    border-top-width:0.1vw;
+    border-right-width: 0.1vw;
+    
 }
 
 .left-bar > h1
@@ -26,17 +64,136 @@
    
 }
 
+.signoutbox{
+    margin-top: 11vh;
+    display: flex;
+    height:auto;
+    width: auto;
+}
+
+.signoutbox > img{
+    margin-left: 1vh;
+}
+
+.signoutbox > h1{
+    color:#1B7092; 
+    margin-left: 3vh
+}
+
+
 .right-bar{
     display: flex;
-    height: 90vh;
-    width: 75vw;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
     background-color: #A9D1E2;
+    justify-content: space-around;
 }
 
-.bottom-bar{
+.top{
+    display: flex;
+    height: 10%;
+    width: 100%;
+}
+
+.top > h1{
+    font-size: 7vh;
+    margin-top: 3vh;
+    margin-left:28vw;
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    height:80%;
+    width: 100%;
+}
+
+.strip{
     display:flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 100%;
+    margin-top: 2vh;
+    background-color: white;
+
 }
 
-#signout{
-    margin-top: 11vh;
+.date{
+    background-color: #1B7092;
+    width: 10vw;
+    height: 8vh;
+}
+
+.date > h1{
+    color:white;
+    font-size:5vh;
+    margin-left:7.5vh;
+    margin-top:1vh;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    height: 19vh;
+    border-bottom-width:0.3vh;
+    border-style: solid;
+    border-bottom-color: #1B7092;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color:white;
+}
+
+.time > h1{
+    margin-left:4.5vh;
+    margin-top:1vh;
+}
+
+.time > h2{
+    color: #1B7092;
+    margin-left:6vh;
+    margin-top:1vh;
+    font-size: 40px;
+}
+
+#art-history{
+    margin-left:2.5vh ;
+}
+
+#art-pro{
+    margin-left:1.5vh ;
+}
+
+#chem{
+    margin-left:3vh ;
+}
+
+#photo{
+    margin-left:1.5vh ;
+}
+
+#eleven{
+    margin-left:3.5vh ;
+}
+
+#PE{
+    margin-left:7.5vh;
+}
+
+#ThreeD{
+    margin-left: 5vh;
+}
+
+#M{
+    margin-left: 7.5vh;
+}
+
+#T{
+    margin-left: 8vh;
+}
+
+#F{
+    margin-left: 8.2vh;
 }
