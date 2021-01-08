@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'futuramedium';
+  src: url('futura_medium_bt-webfont.woff2') format('woff2'),
+       url('futura_medium_bt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  .left {
+    width: 75vw;
+    height: 100vh;
+  }
+  
+  .logo {
+    display: flex;
+    width: 75vw;
+    height: 10vh;
+  }
+  
+  .logo > img {
+    margin-left: 2vh;
+    margin-top: 3vh;
+    width: 5vh;
+    height: 6vh;
+  }
+  
+  .logo > h3 {
+    margin-top: 5vh;
+    margin-left: 1vh;
+  }
+  
+  .announcements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 10vh;
+    margin-top: 10vh;
+  }
+  
+  .announcements > h1 {
+    font-size: 50px;
+  }
+  
+  .announcements > img {
+    width: 9vh;
+    height: 5vh;
+  }
+  
+  .stuco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    height: 10vh;
+  }
+  
+  .trick {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+  }
+  
+  .dot-o {
+    height: 2vh;
+    width: 2vh;
+    border-radius: 100px;
+    background-color: orange;
+    margin-left: 3vh;
+  }
+  
+  .dot-b {
+    height: 2vh;
+    width: 2vh;
+    border-radius: 100px;
+    background-color: #73e0ce;
+    margin-left: 3vh;
+  }
+  
+  .apps {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vh;
+  }
+  
+  .apps > div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .apps > div > h2 {
+    margin-top: 3vh;
+    margin-left: 2vh;
+  }
+  
+  .apps > div > img {
+    margin-top: 3vh;
+    margin-left: 5vh;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 100vh;
+    background-color: #73e0ce;
+  }
+  
+  .right > img {
+    width: 10vh;
+    height: 10vh;
+    margin-left: 30vh;
+    margin-top: 3vh;
+  }
+  
+  .right > h2 {
+    margin-left: 5vh;
+    margin-top: 5vh;
+  }
+  
+  .list > h2 {
+    margin-left: 5vh;
+  }
+  
+  .calender {
+    height: 25vh;
+    width: 30vh;
+    background-color: white;
+    margin-left: 6vh;
+    border: solid black;
+    border-radius: 20px;
+    margin-top: 2vh;
+  }
+  
+  .calender > h3 {
+    margin-left: 3vh;
+    font-size: 25px;
+  }
+  
+  .calender > h4 {
+    margin-top: 4px;
+    margin-left: 3vh;
+    font-size: 20px;
+  }
+  
+  .note {
+    height: 15vh;
+    width: 30vh;
+    background-color: white;
+    margin-left: 6vh;
+    border: solid black;
+    border-radius: 20px;
+    margin-top: 2vh;
+  }
+  
+  .note > h3 {
+    margin-top: 2vh;
+    margin-left: 2vh;
+  }
+  
